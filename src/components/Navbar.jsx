@@ -47,7 +47,7 @@ const Navbar = () => {
                         <img src='/public/title-image.svg' alt='logo' className='w-16' />
                     </div>
                     {/* ------------------------------------------------------------------- */}
-                    <div className="flex h-full items-center gap-20">
+                    <div className="flex h-full items-center gap-14">
 
                         {/* // navbar component to be used. */}
                         <div className="hidden md:block">
