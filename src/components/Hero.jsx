@@ -6,17 +6,17 @@ const Hero = () => {
   return (
     <div>
       {/* -----------------------------mobile---------------------------------------- */}
-      <div className="h-screen flex justify-center items-center md:hidden">
-        <div className="flex flex-col justify-center items-center text-center gap-10">
+      <div className="h-screen flex justify-center items-center md:hidden ">
+        <div className="w-screen flex flex-col justify-center items-center text-center gap-5 pt-10">
           <section>
             <div className='flex justify-center items-center'>
-              <img src='../public/profile-1.webp' className='w-40 h-40 rounded-full object-cover cursor-pointer' />
+              <img src='../public/profile-1.webp' className='w-32 h-32 rounded-full object-cover cursor-pointer' />
             </div>
           </section>
-          <section className='flex flex-col gap-7'>
+          <section className='flex flex-col gap-7 w-[100%]'>
             <div className=''>
               <p className='font-bold text-2xl'>Welcome to my Portfolio</p>
-              <p className='font-bold text-5xl'>Hi I'm <br />
+              <p className='font-bold text-4xl'>Hi I'm <br />
                 <span className='text-blue-500'>Shashwat Kumar</span>
                 <br />
                 {/* <Typewriter
@@ -26,8 +26,9 @@ const Hero = () => {
                     loop: true,
                   }}
                 /> */}
+                Developer
                 </p>
-              <p className='font-semibold text-2xl text-gray-800 pt-6'>Innovative and a passionate problem solver <br />hiring me would be a great decision!</p>
+              <p className='font-semibold text-gray-800 pt-3'>Innovative and a passionate problem solver <br />hiring me would be a great decision!</p>
             </div>
             <div className='flex justify-center items-center gap-10'>
               <button className='bg-blue-500 w-[40%] p-2 text-white rounded-full font-bold hover:bg-blue-400 cursor-pointer'>Hire Me!</button>
@@ -40,11 +41,11 @@ const Hero = () => {
 
       {/* --------------------------------------desktop-------------------------------------------------- */}
       <div className=''>
-        <div className='h-screen hidden md:flex flex-row gap-72 justify-center items-center px-20 py-[200px]'>
+        <div className='h-screen hidden md:flex flex-row gap-48 justify-center items-center pt-10'>
           <section className='flex flex-col gap-10'>
             <div className=''>
               <p className='font-bold text-2xl'>Welcome to my Portfolio</p>
-              <p className='font-bold text-6xl'>Hi I'm <br />
+              <p className='font-bold text-5xl'>Hi I'm <br />
                 <span className='text-blue-500'>Shashwat Kumar</span>
                 <br />
                 {/* <Typewriter
@@ -54,6 +55,7 @@ const Hero = () => {
                     loop: true,
                   }}
                 /> */}
+                Developer
                 </p>
               <p className='font-semibold text-2xl text-gray-800 pt-6'>Innovative and a passionate problem solver <br />hiring me would be a great decision!</p>
             </div>
@@ -72,7 +74,7 @@ const Hero = () => {
           </section>
           <section>
             <div className='flex justify-center items-center'>
-              <img src='../public/profile-1.webp' className='w-[400px] h-[400px] rounded-full object-cover' />
+              <img src='../public/profile-1.webp' className='w-[300px] h-[300px] rounded-full object-cover' />
             </div>
           </section>
         </div>
