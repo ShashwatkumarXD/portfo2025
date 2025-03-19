@@ -74,7 +74,7 @@ const Hero = () => {
           </section>
           <section>
             <div className='flex justify-center items-center'>
-              <img src='profile-1.webp' className='w-[300px] h-[300px] rounded-full object-cover' />
+              <img src='/profile-1.webp' className='w-[300px] h-[300px] rounded-full object-cover' />
             </div>
           </section>
         </div>
