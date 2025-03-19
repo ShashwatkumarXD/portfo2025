@@ -1,0 +1,19 @@
+/* App.css */
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e23ebf;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+}
+
+.typewriter-text {
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    border-right: 3px solid #333;
+    padding-right: 5px;
+}

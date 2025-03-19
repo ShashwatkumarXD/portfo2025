@@ -1,6 +1,7 @@
 import Button from './Button';
 import { FaDownload } from "react-icons/fa";
 // import Typewriter from 'typewriter-effect';
+import Typewriter from "./Typerwrite";
 const Hero = () => {
 
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
         <div className="w-screen flex flex-col justify-center items-center text-center gap-5 pt-10">
           <section>
             <div className='flex justify-center items-center'>
-              <img src='../public/profile-1.webp' className='w-32 h-32 rounded-full object-cover cursor-pointer' />
+              <img src='/profile-1.webp' className='w-32 h-32 rounded-full object-cover cursor-pointer' />
             </div>
           </section>
           <section className='flex flex-col gap-7 w-[100%]'>
@@ -26,7 +27,7 @@ const Hero = () => {
                     loop: true,
                   }}
                 /> */}
-                Developer
+                <Typewriter/>
                 </p>
               <p className='font-semibold text-gray-800 pt-3'>Innovative and a passionate problem solver <br />hiring me would be a great decision!</p>
             </div>
@@ -48,14 +49,7 @@ const Hero = () => {
               <p className='font-bold text-5xl'>Hi I'm <br />
                 <span className='text-blue-500'>Shashwat Kumar</span>
                 <br />
-                {/* <Typewriter
-                  options={{
-                    strings: ['Developer', 'Problem Solver', 'Innovator'],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                /> */}
-                Developer
+                  <Typewriter/>
                 </p>
               <p className='font-semibold text-2xl text-gray-800 pt-6'>Innovative and a passionate problem solver <br />hiring me would be a great decision!</p>
             </div>
