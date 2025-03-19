@@ -44,7 +44,7 @@ const Navbar = () => {
                 <nav className='flex size-full items-center justify-between p-4'>
                     {/* --------------------------------------------------------- */}
                     <div className='flex items-center gap-7'>
-                        <img src='/public/title-image.svg' alt='logo' className='w-16' />
+                        <img src='/title-image.svg' alt='logo' className='w-16' />
                     </div>
                     {/* ------------------------------------------------------------------- */}
                     <div className="flex h-full items-center gap-14">
