@@ -9,7 +9,7 @@ const Skill = () => {
           {/* Images List - Duplicated for Seamless Scrolling */}
           {[
             { src: mongo, size: "w-44 h-44" },
-            { src: "/react.svg", size: "w-20 h-20" }, // React is smaller
+            { src: "/react1.svg", size: "w-20 h-20" }, // React is smaller
             { src: "/wordpress.svg", size: "w-44 h-44" },
             { src: "/node.svg", size: "w-44 h-44" },
             { src: "/tailwind.svg", size: "w-20 h-20" },

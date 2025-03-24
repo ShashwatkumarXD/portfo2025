@@ -5,7 +5,7 @@ import Typewriter from "./Typerwrite";
 const Hero = () => {
 
   return (
-    <div>
+    <section id='home'>
       {/* -----------------------------mobile---------------------------------------- */}
       <div className="h-screen flex justify-center items-center md:hidden ">
         <div className="w-screen flex flex-col justify-center items-center text-center gap-5 pt-10">
@@ -20,13 +20,6 @@ const Hero = () => {
               <p className='font-bold text-4xl'>Hi I'm <br />
                 <span className='text-blue-500'>Shashwat Kumar</span>
                 <br />
-                {/* <Typewriter
-                  options={{
-                    strings: ['Developer', 'Problem Solver', 'Innovator'],
-                    autoStart: true,
-                    loop: true,
-                  }}
-                /> */}
                 <Typewriter/>
                 </p>
               <p className='font-semibold text-gray-800 pt-3'>Innovative and a passionate problem solver <br />hiring me would be a great decision!</p>
@@ -73,7 +66,7 @@ const Hero = () => {
           </section>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

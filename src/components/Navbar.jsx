@@ -4,7 +4,7 @@ import Button from "./Button";
 import { useWindowScroll } from 'react-use';
 import gsap from 'gsap';
 
-const navItems = ['Home', 'About Me', 'Services', 'Blog', 'Contact'];
+const navItems = ['Home', 'About Me', 'Projects', 'Blog', 'Contact'];
 
 const Navbar = () => {
 
@@ -76,4 +76,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;
